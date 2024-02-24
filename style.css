@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Acme&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #437789;
+}
+
+h2{
+    font-size: 60px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-style: italic; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;    
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    margin-top: 27vmin;
+    /* margin-left: 35vmin; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* background-color:red */
+}
+
+.key{
+    display: flex;
+    width: 85px;
+    height: 85px;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 6px;
+    justify-content: center;
+    align-items:center;
+    background-color: #85B3C1;
+    border: none;
+    border-radius: 10px; 
+    box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14); 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px; 
+    cursor: pointer;
+    border-radius: 22px;
+
+}
+.keyOver{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.2);
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+
+}
